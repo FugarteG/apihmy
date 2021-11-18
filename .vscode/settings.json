@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/95c6c20a-2a4e-4175-8740-7d565241cd8e/resourceGroups/atBIM/providers/Microsoft.Web/sites/hmyapi",
+    // "appService.deploySubpath": "publish"
+}

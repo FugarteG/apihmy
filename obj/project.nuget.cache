@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "jWhUNYfI0hKtYhO/snfxme/0krTGnu6Su3Dpn+nA8VRBqwt3Et7foEf4D+0MwDyh7jRJXYVH56rhwlrUV5+0Mw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\FranciscoUgarte\\Desktop\\hmyapi-main\\hmyapi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\autodesk.forge\\1.9.0\\autodesk.forge.1.9.0.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.12\\microsoft.aspnetcore.authentication.jwtbearer.3.1.12.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.8\\microsoft.aspnetcore.jsonpatch.3.1.8.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.8\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.8.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.5.0\\microsoft.identitymodel.jsonwebtokens.5.5.0.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\microsoft.identitymodel.logging\\5.5.0\\microsoft.identitymodel.logging.5.5.0.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\microsoft.identitymodel.protocols\\5.5.0\\microsoft.identitymodel.protocols.5.5.0.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\5.5.0\\microsoft.identitymodel.protocols.openidconnect.5.5.0.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.5.0\\microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.5.0\\system.identitymodel.tokens.jwt.5.5.0.nupkg.sha512",
+    "C:\\Users\\FranciscoUgarte\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>hmyapi</name>
+    </assembly>
+    <members>
+        <member name="M:hmyapi.Controllers.HmyApiController.GetBulkBuckets">
+            <summary>
+            Get the all projects that resides in the application.
+            </summary>
+            <response code="200">Projects successfully returned.</response>
+            <response code="401">The supplied Authorization header was not valid. Verify Authentication and try again.</response>
+            <response code="500">Generic internal server error.</response>
+        </member>
+        <member name="M:hmyapi.Controllers.HmyApiController.GetBuckets(System.Int32,System.String)">
+            <summary>
+            Get the projects that resides in the application by specifying the number of buckets per page and the starting bucket.
+            </summary>
+            <response code="200">Projects successfully returned.</response>
+            <response code="401">The supplied Authorization header was not valid. Verify Authentication and try again.</response>
+            <response code="500">Generic internal server error.</response>
+        </member>
+        <member name="M:hmyapi.Controllers.HmyApiController.GetBucketsWithBucketsPerPage(System.Int32)">
+            <summary>
+            Get the projects that resides in the application by specifying the number of buckets per page and starting with the first one.
+            </summary>
+            <response code="200">Projects successfully returned.</response>
+            <response code="401">The supplied Authorization header was not valid. Verify Authentication and try again.</response>
+            <response code="500">Generic internal server error.</response>
+        </member>
+        <member name="M:hmyapi.Controllers.HmyApiController.CreateBucket(hmyapi.Models.CreateBucketModel)">
+            <summary>
+            Creates a project. Projects are spaces that are created to store models for later retrieval.
+            </summary>
+            <response code="200">Project successfully created.</response>
+            <response code="401">The supplied Authorization header was not valid. Verify Authentication and try again.</response>
+            <response code="500">Generic internal server error.</response>
+        </member>
+        <member name="M:hmyapi.Controllers.HmyApiController.DeleteBucket(System.String)">
+            <summary>
+            Deletes a Project. Note that the Project name will not be immediately available for reuse.
+            </summary>
+            <response code="200">Project successfully deleted.</response>
+            <response code="401">The supplied Authorization header was not valid. Verify Authentication and try again.</response>
+            <response code="404">The specified Project does not exist.</response>
+            <response code="500">Generic internal server error.</response>
+        </member>
+        <member name="M:hmyapi.Controllers.HmyApiController.AddModel(hmyapi.Models.AddModelModel)">
+            <summary>
+            Uploads a model to the project and starts translating the model.
+            </summary>
+            <response code="200">Successfuly uploaded the model and started translation</response>
+            <response code="401">The supplied Authorization header was not valid. Verify Authentication and try again.</response>
+            <response code="500">Generic internal server error.</response>
+        </member>
+        <member name="M:hmyapi.Controllers.HmyApiController.DeleteModel(System.String,System.String)">
+            <summary>
+            Deletes a model from a bucket.
+            </summary>
+            <response code="200">Successfuly deleted the model.</response>
+            <response code="400">Bad request, missing body parameters.</response>
+            <response code="401">The supplied Authorization header was not valid. Verify Authentication and try again.</response>
+            <response code="500">Generic internal server error.</response>
+        </member>
+        <member name="M:hmyapi.Controllers.HmyApiController.GetBucketInfo(System.String,System.Int32)">
+            <summary>
+            Return project details.
+            </summary>
+            <response code="200">Get project details was successful.</response>
+            <response code="401">The supplied Authorization header was not valid. Verify Authentication and try again.</response>
+            <response code="404">The size requested is not allowed.</response>
+            <response code="500">Generic internal server error.</response>
+        </member>
+        <member name="M:hmyapi.Controllers.HmyApiController.BucketExists(System.String)">
+            <summary>
+            Return if project exists.
+            </summary>
+            <response code="200">Project exists.</response>
+            <response code="401">The supplied Authorization header was not valid. Verify Authentication and try again.</response>
+            <response code="404">The size requested is not allowed.</response>
+            <response code="500">Generic internal server error.</response>
+        </member>
+        <member name="M:hmyapi.Controllers.HmyApiController.GetTranslationPercentage(hmyapi.Models.UrnModel)">
+            <summary>
+            Gives the current percentage of the translation.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:hmyapi.Controllers.HmyApiController.TranslateObjectModel">
+            <summary>
+            Model for TranslateObject method
+            </summary>
+        </member>
+        <member name="M:hmyapi.Controllers.HmyAuthController.Login(hmyapi.Models.LoginModel)">
+            <summary>
+            Get an access token by providing your app’s client ID and secret.
+            </summary>
+            <param name="login">The first name to search for</param>
+            <response code="200">Successful request; access token returned.</response>
+            <response code="401">The client_id and client_secret combination is not valid.</response>
+            <response code="500">Generic internal server error.</response>
+        </member>
+        <member name="M:hmyapi.Controllers.OAuthController.GetPublicAsync">
+            <summary>
+            Get access token with public (viewables:read) scope
+            </summary>
+        </member>
+        <member name="M:hmyapi.Controllers.OAuthController.GetInternalAsync">
+            <summary>
+            Get access token with internal (write) scope
+            </summary>
+        </member>
+        <member name="M:hmyapi.Controllers.OAuthController.Get2LeggedTokenAsync(Autodesk.Forge.Scope[])">
+            <summary>
+            Get the access token from Autodesk
+            </summary>
+        </member>
+        <member name="M:hmyapi.Controllers.OAuthController.GetAppSetting(System.String)">
+            <summary>
+            Reads appsettings from web.config
+            </summary>
+        </member>
+        <member name="M:hmyapi.Controllers.OSSController.Base64Encode(System.String)">
+            <summary>
+            Base64 enconde a string
+            </summary>
+        </member>
+    </members>
+</doc>
